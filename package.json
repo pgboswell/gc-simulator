@@ -1,0 +1,9 @@
+{
+  "name": "gc-simulator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python build.py",
+    "test": "node tests/model.test.js && node tests/plot.test.js"
+  }
+}
